@@ -17,10 +17,11 @@ namespace ClassTallerMecanico
 
         public AccesoBD()
         {
-            string CadCon = (@"Data Source = GRM\SQLEXPRESS; Initial Catalog = MiTaller2021; Integrated Security = false; user = Usuario2; pwd = ALEX123");
-            CONEXION = new SqlConnection(CadCon); 
+            string CadCon = (@"Data Source = LAPTOP-CU3COPN9; Initial Catalog = MiTaller2021; Integrated Security = false; user = imelda; pwd = Lord0120;");
+            //@"Data Source = LAPTOP-CU3COPN9; Initial Catalog = MiTaller2021; Integrated Security = true;");
+            CONEXION = new SqlConnection(CadCon);
             //cuando se hace con contraseña
-            //@"Data Source = GRM\SQLEXPRESS; Initial Catalog = Computo; Integrated Security = false; user = Usuario2; pwd = ALEX123"
+            //@"Data Source = LAPTOP-CU3COPN9; Initial Catalog = MiTaller2021; Integrated Security = false; user = imelda; pwd = Lord0120"
             CONEXION = new SqlConnection(CadCon);
             COMANDO.Connection = CONEXION;
         }
