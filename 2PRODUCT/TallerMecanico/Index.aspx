@@ -49,7 +49,7 @@
     <div>
     
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-        <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Italic="True" Font-Names="Aclonica" Font-Overline="False" Font-Size="XX-Large" Font-Strikeout="False" Text="Taller Mecanico"></asp:Label>
+        <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Italic="True" Font-Names="Aclonica" Font-Overline="False" Font-Size="XX-Large" Font-Strikeout="False" Text="Taller Mecanico" BackColor="White" Height="36px" Width="217px"></asp:Label>
         <br />
         <br />
         <br />
@@ -64,45 +64,47 @@
             <tr>
                 <td class="auto-style2">&nbsp;</td>
                 <td class="auto-style4">
-                    <asp:Label ID="Label2" runat="server" Text="Usuario:"></asp:Label>
+                    <asp:Label ID="Label2" runat="server" Text="Usuario:" BackColor="White"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="txtUsuario" runat="server" Width="194px"></asp:TextBox>
+                    </td>
+                <td>
+                    <asp:TextBox ID="txtUsuario" runat="server" Width="248px"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style10"></td>
                 <td class="auto-style11">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <br />
-                    <asp:Label ID="Label3" runat="server" Text="Numero de Celular:"></asp:Label>
+                    <asp:Label ID="Label3" runat="server" Text="Numero de Celular:" BackColor="White"></asp:Label>
 &nbsp;&nbsp;
-                    <asp:TextBox ID="txtContraseña" runat="server" Width="196px"></asp:TextBox>
+                    </td>
+                <td class="auto-style12">
+                    <asp:TextBox ID="txtContraseña" runat="server" Width="256px"></asp:TextBox>
                 </td>
-                <td class="auto-style12"></td>
             </tr>
             <tr>
                 <td class="auto-style13"></td>
                 <td class="auto-style14">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="height: 26px" Text="Ingresar" />
                     </td>
                 <td class="auto-style15"></td>
             </tr>
         </table>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="height: 26px" Text="Ingresar" />
         <p>
             <asp:TextBox ID="TextBox4" runat="server" Width="953px"></asp:TextBox>
         </p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
     </form>
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
     <p>
         &nbsp;</p>
     <p>
