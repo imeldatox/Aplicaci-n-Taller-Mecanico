@@ -17,7 +17,7 @@ namespace ClassTallerMecanico
 
         public AccesoBD()
         {
-            string CadCon = (@"Data Source = LAPTOP-CU3COPN9; Initial Catalog = MiTaller2021; Integrated Security = false; user = imelda; pwd = Lord0120;");
+            string CadCon = (@"Data Source = DESKTOP-8G10411\SQLEXPRESS; Initial Catalog = MiTaller2021; Integrated Security = false; user = imelda; pwd = Lord0120;");
             //@"Data Source = LAPTOP-CU3COPN9; Initial Catalog = MiTaller2021; Integrated Security = true;");
             CONEXION = new SqlConnection(CadCon);
             //cuando se hace con contraseña
