@@ -60,11 +60,11 @@ namespace TallerMecanico
                 GridView1.DataBind();
             }
         }
-
         protected void Button6_Click(object sender, EventArgs e)
         {
             ob2.BusquedaCliente(TextBox5.Text);
         }
+
 
         protected void Button8_Click(object sender, EventArgs e)
         {
